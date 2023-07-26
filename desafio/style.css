@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     background-color: #f4ede5;
-    width: 98%;
+    width: 97%;
     margin: auto;
 }
 .yellow {
@@ -15,18 +15,70 @@
         display: flex;
         align-content: center;
         justify-content: space-between;
-        padding: 20px;
+        margin: 10px 0px;
     }
     .logo {
+        width: 140px;
         text-align: left;
-        height: 40px;
+        margin-left: 0px;
     }
     .hamburguer {
-        height: 30px;
+        width: 40px;
+        margin-right: 0px;
+    }
+    main {
+        padding-top: 40px;
     }
     h1 {
         font-size: 2.5em;
-        
+        width: 80%;
+        margin-left: 0px;
+    }
+    main > p {
+        line-height: 20px;
+        margin-left: 0px;
+    }
+    .classebotao {
+        margin-left: 0px;
+        padding: 20px 0px;
+    }
+    #botao {
+        padding: 15px 20px;
+        width: 140px;
+        border-radius: 4px;
+        color: white;
+        background-color: rgb(0, 77, 0);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #botao:hover {
+        background-color: rgb(0, 57, 0);
+    }
+    .pardois {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .minilogo {
+        height: 20px;
+        width: 20px;
+        padding: 8px;
+    }
+    .par {
+        margin: auto;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 70px;
+    }
+    .logotipos { 
+        text-align: center;
+        justify-content: space-between;
+    }
+    .flogos {
+        padding: 9px;
+        width: 45%;
+        max-width: 200px;
     }
 
 /* desktop */
