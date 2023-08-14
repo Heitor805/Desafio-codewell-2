@@ -10,12 +10,27 @@
 .yellow {
     color: #eca900;
 }
+p {
+    color: rgb(104, 104, 104);
+}
 /* mobile */
+    .header input {
+        display: none;
+    }
     .header {
         display: flex;
         align-content: center;
         justify-content: space-between;
         margin: 10px 0px;
+    }
+    .header p {
+        display: none;
+    }
+    .header nav {
+        display: none;
+    }
+    .aparecer {
+        background-color: white;
     }
     .logo {
         width: 140px;
@@ -28,6 +43,9 @@
     }
     main {
         padding-top: 40px;
+    }
+    .ligacao {
+        display: none;
     }
     h1 {
         font-size: 2.5em;
@@ -57,7 +75,7 @@
     .pardois {
         display: flex;
         justify-content: space-between;
-        width: 320px;
+        width: 290px;
         margin-left: 0px;
     }
     .minilogo {
@@ -68,8 +86,7 @@
     .par {
         margin: auto;
         text-align: center;
-        padding-bottom: 15px;
-        padding-top: 70px;
+        padding-top: 35px;
     }
     .logotipos { 
         text-align: center;
@@ -82,6 +99,92 @@
     }
 
 /* desktop */
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 900px) {
+    * {
+        width: 80vw;
+        margin: auto;
+    }
+    .header {
+        padding-top: 24px;
+    }
+    .header input {
+        display: block;
+        margin-right: 0px;
+    }
+    .header p {
+        width: 200px;
+        text-align: right;
+        padding: 20px;
+        display: block;
+    }
+    .header nav {
+        width: 210%;
+        text-align: center;
+        display: block;
+    }
+    .header nav a {
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(104, 104, 104);
+    }
+    .logo {
+        width: 44%;
+    }
+    .hamburguer {
+        display: none;
+    }
+    .menu {
+        background-color: white;
+        display: block;
+        position: relative;
+        width: 250px;
+        padding: 10px 0px;
+    }
+    .menu-logos {
+        height: 30px;
+        background-color: white;
+        width: 50px;
+    }
+    .submenu {
+        background-color: white;
+        width: 80%;
+    }
+    .menu h2 {
+        font-size: 1em;
+        background-color: white;
+        width: 80%;
+    }
+    .menu p {
+        font-size: 0.9em;
+        background-color: white;
+        width: 80%;
+    }
+    .casa {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        margin: 10px 0px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        width: 80%;
+        margin-left: 0px;
+    }
+    .texto {
+        width: 62%;
+        margin-left: 0px;
+    }
+    .ligacao {
+        display: block;
+        margin-right: 0px;
+        width: 38%;
+        max-width: 270px;
+    }
+    .flogos {
+        padding: 17px;
+        width: 32%;
+        max-width: 150px;
+    }
 }
